@@ -39,4 +39,12 @@ SCREAMING_SNAKE_CASE = False
 
 
 
+#get the number as a string
+num = input("what number do you want to square?\n>")
+
+#parse (convert) the string to an integer
+num = int(num)
+
+#do math and print 
+print(num * num)
 
