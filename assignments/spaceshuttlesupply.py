@@ -5,8 +5,9 @@ water_packs = input("how many waterpacks do you have\n>")
 
 
 print("seconds till launching:" +countdown )
-print("onygen tanks:" +oxygen_tanks )
-
+print("oxygen tanks:" +oxygen_tanks )
+print("food packs:" +food_packs )
+print("water packs" +water_packs )
 
 
 
