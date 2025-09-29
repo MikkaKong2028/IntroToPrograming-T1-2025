@@ -11,7 +11,7 @@ print("your favorite animal is a " +animal+ " you like this animal because " +li
 
 
 """
-Ive made the anwser into a sentance so that when you get your survey
+I tried to make the anwser into a sentance so that when you get your survey
 back it reads it to you in a sentence and not just a list. 
 
 
