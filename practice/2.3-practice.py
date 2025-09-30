@@ -48,3 +48,13 @@ num = int(num)
 #do math and print 
 print(num * num)
 
+#verbosity    using more words than necessary
+
+"""
+Triple quote this is all a comment 
+
+
+removes the need to right in every line. 
+
+
+"""
