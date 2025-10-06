@@ -12,7 +12,7 @@ print(third_word )
 
 
 
-"""
+
 #Question 2
 
 def add_three(x, y, z):
@@ -39,7 +39,6 @@ def data_three():
     
 data_three()
 
-"""
 
 
 
