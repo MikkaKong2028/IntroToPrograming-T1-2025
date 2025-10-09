@@ -1,62 +1,39 @@
+question_1 = input("what is 2+2\n>")
+question_2 = input("what is 3+9\n>")
+question_3 = input("what is 4+1\n>")
+question_4 = input("what is 5-2\n>")
+question_5 = input("what is 4+8\n>")
+
 
 
 def tally_score():
-    question_1 = input("what is 2+2\n>")
-    question_1_anwser = "4"
-    question_2 = input("what is 3+9\n>")
-    question_2_anwser = "12"
-    question_3 = input("what is 4+1\n>")
-    question_3_anwser = "5"
-    question_4 = input("what is 5-2\n>")
-    question_4_anwser = "3"
-    question_5 = input("what is 4+1\n>")
-    question_5_anwser = "5"
+    score = 0
+    
+    if  question_5.lower() == "12":
+        score = score + 1
+        
+
+    if  question_4.lower() == "3":
+        score = score + 1
+   
+
+
+    if  question_3.lower() == "5":
+        score = score + 1
+
+    
+
+    if  question_2.lower() == "12":
+        score = score + 1
 
 
 
-
-
-
-
-
-
-
- if  question_2 == question_2_anwser:
-        print("correct")
-    else:
-        print("incorrect")
-
-
-
- if  question_2 == question_2_anwser:
-        print("correct")
-    else:
-        print("incorrect")
-
-
-
- if  question_3 == question_2_anwser:
-        print("correct")
-    else:
-        print("incorrect")
-
-
-    if  question_2 == question_2_anwser:
-        print("correct")
-    else:
-        print("incorrect")
-
-
-
-    if  question_1 == question_1_anwser:
-        print("correct")
-    else:
-        print(0)
-       
-
+    if  question_1.lower() == "4":#makes it lowercse can be used to fix spelling error for upper and lower case
+        score = score + 1
+    
+    print("SCORE: " + str(score) + "/5")
+   
 tally_score()
-
-
 
 
 
