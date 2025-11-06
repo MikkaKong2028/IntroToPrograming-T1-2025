@@ -133,21 +133,21 @@ def school_adventure():
             start_adventure()
 
 school_adventure()"""
-import random
 
-def lunch():
-    print("\n\n\n\n---------------------------------------------------------------------------------------------------------------\n\x1B[4m" + "Inner voice:" + "\x1B[0m" "\nAfter finishing your quiz you go to eat lunch, you end up sitting alone since you donce know anyone. After lunch ends you go to PE today you are running, what do you want to do next:")
-    print("1. Listen to the teacher and begin running")
-    print("2. Complain to the teacher.")
 
-    choice = input("> ")
 
-    if choice == "1":
-        history()
-    elif choice == "2":
-        history()
 
-    else:
-        print("invalid input, Put only the number of the choice")
-        lunch()
-lunch()       
+
+num = [10,9,8,7,6,5,4,3,2,1]
+
+for count in num: #for each individual game in the games variable print all the games in a loop. game = each of these but goes around in a loop 
+    print(count)
+
+
+games = [10,9,8,7,6,5,4,3,2,1]
+
+for game in games: #for each individual game in the games variable print all the games in a loop. game = each of these but goes around in a loop 
+    print(game)
+
+
+
