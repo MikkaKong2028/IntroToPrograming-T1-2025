@@ -1,4 +1,4 @@
-"""# String functions1
+# String functions1
 # A group of like-functions that manipulate strings
 # The modify strings
 # SUPER easy and convenient to use
@@ -121,7 +121,6 @@ print(index)  # Output: 4
 # Endswith
 is_txt_file = "filename.txt".endswith(".txt")
 print(is_txt_file)  # Output: True
-"""
 
 
 sentence = input("write a a sentence\n>")

@@ -1,4 +1,4 @@
-"""
+
 if condition:
     # Code to execute if the condition is true
 
@@ -31,7 +31,7 @@ else:
 anwser_one = input("what is 2 plus 2?\n>")
 print(answer_one == "4")
 
-"""
+
 
 a = 0
 b = 11
